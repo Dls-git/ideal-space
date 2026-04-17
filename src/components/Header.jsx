@@ -1,25 +1,25 @@
 import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import logoImage from "../assets/logo.png";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { href: "#services", label: "Services" },
-    { href: "#why-us", label: "Why Us" },
-    { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" },
+    { to: "/", label: "Home" },
+    { to: "/services", label: "Services" },
+    { to: "/projects", label: "Projects" },
+    { to: "/contact", label: "Contact" },
   ];
+
+  const navItemClass = ({ isActive }) =>
+    `transition ${isActive ? "text-white" : "text-white/75 hover:text-white"}`;
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 xl:px-10 min-[1700px]:max-w-[92rem]">
-        <a href="#top" className="flex min-w-0 items-center gap-3 sm:gap-4">
-          <img 
-            src={logoImage} 
-            alt="Ideal Space Solutions" 
-            className="h-14 w-14 shrink-0 rounded-2xl object-cover sm:h-16 sm:w-16" 
-          />
+        <Link to="/" className="flex min-w-0 items-center gap-3 sm:gap-4" onClick={() => setMobileMenuOpen(false)}>
+          <img src={logoImage} alt="Ideal Space Solutions" className="h-14 w-14 shrink-0 rounded-2xl object-cover sm:h-16 sm:w-16" />
           <div className="min-w-0">
             <div className="truncate text-base font-semibold tracking-[0.18em] text-white sm:text-lg sm:tracking-[0.22em]">
               IDEAL SPACE
@@ -28,13 +28,13 @@ export default function Header() {
               SOLUTIONS
             </div>
           </div>
-        </a>
+        </Link>
 
         <nav className="hidden items-center gap-6 text-sm text-white/75 xl:flex 2xl:gap-8 min-[1700px]:gap-10">
           {navItems.map((item) => (
-            <a key={item.href} href={item.href} className="transition hover:text-white">
+            <NavLink key={item.to} to={item.to} className={navItemClass}>
               {item.label}
-            </a>
+            </NavLink>
           ))}
         </nav>
 
@@ -61,14 +61,14 @@ export default function Header() {
         <div className="absolute left-0 right-0 top-full border-b border-white/10 bg-black/95 backdrop-blur xl:hidden">
           <nav className="grid gap-1 p-4 sm:grid-cols-2">
             {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
+              <NavLink
+                key={item.to}
+                to={item.to}
                 className="touch-target rounded-lg px-4 py-3 text-white/75 transition hover:bg-white/10 hover:text-white"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.label}
-              </a>
+              </NavLink>
             ))}
           </nav>
         </div>

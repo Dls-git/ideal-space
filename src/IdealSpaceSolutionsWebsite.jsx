@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import WhyUs from "./components/WhyUs";
@@ -13,11 +14,12 @@ export default function IdealSpaceSolutionsWebsite() {
     <div className="min-h-screen bg-[#090909] text-white">
       <Header />
       <Hero />
+      <Features />
       <Services />
       <WhyUs />
       <Experience />
       <Projects />
-      <Visuals />
+      <Visuals view="projects" />
       <Contact />
       <Footer />
     </div>

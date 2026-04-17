@@ -64,3 +64,108 @@ img {
     scroll-behavior: auto !important;
   }
 }
+
+.ideal-datepicker-popper {
+  z-index: 30;
+}
+
+.ideal-datepicker {
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 1rem !important;
+  background: #121212 !important;
+  color: #fff !important;
+  font-family: inherit !important;
+  font-size: 0.98rem !important;
+}
+
+.ideal-datepicker .react-datepicker__header {
+  background: #151515 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+  padding-top: 0.85rem !important;
+}
+
+.ideal-datepicker .react-datepicker__current-month,
+.ideal-datepicker .react-datepicker__day-name,
+.ideal-datepicker .react-datepicker__day,
+.ideal-datepicker .react-datepicker__time-name,
+.ideal-datepicker .react-datepicker__month-text,
+.ideal-datepicker .react-datepicker__year-text {
+  color: #fff !important;
+}
+
+.ideal-datepicker .react-datepicker__day:hover,
+.ideal-datepicker .react-datepicker__month-text:hover,
+.ideal-datepicker .react-datepicker__year-text:hover {
+  background: rgba(193, 154, 107, 0.18) !important;
+}
+
+.ideal-datepicker .react-datepicker__day--selected,
+.ideal-datepicker .react-datepicker__day--keyboard-selected {
+  background: #c19a6b !important;
+  color: #fff !important;
+}
+
+.ideal-datepicker .react-datepicker__day--disabled {
+  color: rgba(255, 255, 255, 0.28) !important;
+  cursor: not-allowed !important;
+}
+
+.ideal-datepicker .react-datepicker__navigation-icon::before {
+  border-color: #fff !important;
+}
+
+.ideal-datepicker .react-datepicker__month-container {
+  width: 22rem;
+}
+
+.ideal-datepicker .react-datepicker__day-name,
+.ideal-datepicker .react-datepicker__day {
+  width: 2.5rem !important;
+  line-height: 2.5rem !important;
+  margin: 0.18rem !important;
+}
+
+.ideal-datepicker .react-datepicker__current-month {
+  margin-bottom: 0.5rem !important;
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.route-fade-in {
+  animation: routeFadeIn 480ms ease-in-out both;
+}
+
+.route-fade-out {
+  animation: routeFadeOut 480ms ease-in-out both;
+}
+
+@keyframes routeFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes routeFadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
