@@ -7,6 +7,7 @@ import officeGlassPartition from "../assets/office-glass-partition.jpg";
 import institutionalCorridorLighting from "../assets/institutional-corridor-lighting.jpg";
 import retailLobbyCeiling from "../assets/retail-lobby-ceiling.jpg";
 import institutionalBoardroomCeiling from "../assets/institutional-boardroom-ceiling.jpg";
+import retailReceptionLounge from "../assets/retail-reception-lounge.jpg";
 import officeOpenWorkspace from "../assets/office-open-workspace.jpg";
 import officeCorridorFinish from "../assets/office-corridor-finish.jpg";
 import officeCollaborationArea from "../assets/office-collaboration-area.jpg";
@@ -84,6 +85,14 @@ export const projectsData = [
     category: "Institutional",
     description:
       "Boardroom-focused ceiling work balancing acoustic performance, geometry control, and integrated fixture alignment.",
+  },
+  {
+    id: "retail-reception-lounge",
+    title: "Retail Reception Lounge",
+    image: retailReceptionLounge,
+    category: "Retail",
+    description:
+      "Retail reception interior with polished finish quality across curved transitions, bulkheads, and feature wall elements.",
   },
   {
     id: "office-open-workspace",
