@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ideal.space.au/sitemap.xml
+Sitemap: https://idealspace.au/sitemap.xml

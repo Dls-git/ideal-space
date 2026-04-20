@@ -518,9 +518,9 @@ export default function Contact() {
         <div className="grid gap-6 rounded-[2rem] border border-[#c9a35d]/20 bg-gradient-to-br from-[#151515] to-[#0d0d0d] p-5 sm:gap-8 sm:p-8 md:p-10 xl:grid-cols-[0.9fr_1.1fr] xl:p-14 min-[1700px]:gap-12">
           <div className="space-y-5">
             <div className={sectionTitle}>Contact</div>
-            <h2 className="text-3xl font-semibold leading-tight md:text-5xl">
+            <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
               Need reliable plaster manpower for your next project?
-            </h2>
+            </h1>
             <p className="max-w-2xl text-base leading-7 text-white/70 sm:text-lg sm:leading-8">
               Contact Ideal Space Solutions directly, or submit a short manpower inquiry. The form is intentionally minimal so contractors can send the essential information fast.
             </p>

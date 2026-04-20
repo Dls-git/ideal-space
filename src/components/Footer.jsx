@@ -7,7 +7,9 @@ export default function Footer() {
         <div className="flex items-center justify-center gap-4 xl:justify-start">
           <img 
             src={logoImage} 
-            alt="Ideal Space Solutions" 
+            alt=""
+            loading="lazy"
+            decoding="async"
             className="h-14 w-14 shrink-0 rounded-2xl object-cover sm:h-16 sm:w-16" 
           />
           <div>

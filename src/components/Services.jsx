@@ -33,9 +33,9 @@ export default function Services() {
     <section id="services" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 xl:px-10 min-[1700px]:max-w-[92rem]">
       <div className="mb-12 max-w-3xl space-y-4">
         <div className={sectionTitle}>Services</div>
-        <h2 className="text-3xl font-semibold leading-tight md:text-5xl">
+        <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
           Commercial fit-out plastering support, structured for contractors.
-        </h2>
+        </h1>
         <p className="text-base leading-7 text-white/70 sm:text-lg sm:leading-8">
           The site is deliberately positioned around labour subcontracting for commercial interiors. The message is direct: you supply experienced plaster manpower where project teams need dependable delivery support.
         </p>

@@ -24,4 +24,5 @@ dist-ssr
 *.sw?
 
 .vercel
+.claude
 PROJECT_HANDOVER.txt

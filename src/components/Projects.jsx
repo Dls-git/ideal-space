@@ -17,9 +17,9 @@ export default function Projects() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 xl:px-10 min-[1700px]:max-w-[92rem]">
         <div className="mb-12 max-w-3xl space-y-4">
           <div className={sectionTitle}>Selected Project Experience</div>
-          <h2 className="text-3xl font-semibold leading-tight md:text-5xl">
+          <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
             A portfolio aligned with commercial interiors and institutional environments.
-          </h2>
+          </h1>
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">

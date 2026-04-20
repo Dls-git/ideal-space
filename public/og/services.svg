@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Ideal Space Solutions Services">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0b" />
+      <stop offset="100%" stop-color="#20170f" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="none" stroke="#c19a6b" stroke-opacity="0.55" stroke-width="2" />
+  <text x="108" y="238" fill="#e8c98e" font-family="Arial, sans-serif" font-size="34" letter-spacing="8">IDEAL SPACE SOLUTIONS</text>
+  <text x="108" y="322" fill="#ffffff" font-family="Arial, sans-serif" font-size="68" font-weight="700">Commercial</text>
+  <text x="108" y="394" fill="#ffffff" font-family="Arial, sans-serif" font-size="68" font-weight="700">Plastering Services</text>
+  <text x="108" y="468" fill="#d8d8d8" font-family="Arial, sans-serif" font-size="32">Fit-out manpower • Ceilings • Partitions • Fire-rated systems</text>
+</svg>

@@ -84,7 +84,7 @@ export default function Visuals({ view = "projects" }) {
                   transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
                   className={`h-full w-full ${ratioClass}`}
                 >
-                  <img src={item.image} alt={item.title} className="h-full w-full object-cover object-center" />
+                  <img src={item.image} alt={item.title} loading="lazy" decoding="async" className="h-full w-full object-cover object-center" />
                 </MotionDiv>
 
                 <div className="pointer-events-none absolute inset-0 bg-black/55 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
@@ -112,7 +112,7 @@ export default function Visuals({ view = "projects" }) {
                 transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
                 className="aspect-[4/3] w-full"
               >
-                <img src={item.image} alt={item.title} className="h-full w-full object-cover object-center" />
+                <img src={item.image} alt={item.title} loading="lazy" decoding="async" className="h-full w-full object-cover object-center" />
               </MotionDiv>
 
               <div className="pointer-events-none absolute inset-0 bg-black/55 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import heroImage from "../assets/here-home.webp";
+
+const heroImage = "/hero-home.webp";
 
 export default function Hero({ compact = false }) {
   const MotionH1 = motion.h1;
@@ -21,6 +22,9 @@ export default function Hero({ compact = false }) {
         <img
           src={heroImage}
           alt="Commercial plaster fit-out background"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
           className="h-full w-full object-cover object-center brightness-[0.7] contrast-[1.1]"
         />
         <div

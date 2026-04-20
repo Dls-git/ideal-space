@@ -19,7 +19,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 xl:px-10 min-[1700px]:max-w-[92rem]">
         <Link to="/" className="flex min-w-0 items-center gap-3 sm:gap-4" onClick={() => setMobileMenuOpen(false)}>
-          <img src={logoImage} alt="Ideal Space Solutions" className="h-14 w-14 shrink-0 rounded-2xl object-cover sm:h-16 sm:w-16" />
+          <img src={logoImage} alt="Ideal Space Solutions" decoding="async" className="h-14 w-14 shrink-0 rounded-2xl object-cover sm:h-16 sm:w-16" />
           <div className="min-w-0">
             <div className="truncate text-base font-semibold tracking-[0.18em] text-white sm:text-lg sm:tracking-[0.22em]">
               IDEAL SPACE
