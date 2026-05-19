@@ -519,10 +519,10 @@ export default function Contact() {
           <div className="space-y-5">
             <div className={sectionTitle}>Contact</div>
             <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
-              Need reliable plaster manpower for your next project?
+              Need reliable plaster labour subcontractor for your next project?
             </h1>
             <p className="max-w-2xl text-base leading-7 text-white/70 sm:text-lg sm:leading-8">
-              Contact Ideal Space Solutions directly, or submit a short manpower inquiry. The form is intentionally minimal so contractors can send the essential information fast.
+              Contact Ideal Space Solutions directly, or submit a short subcontractor inquiry. The form is intentionally minimal so contractors can send the essential information fast.
             </p>
 
             <div className="space-y-5 rounded-[1.75rem] border border-white/10 bg-black/30 p-6 sm:p-8">

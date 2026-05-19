@@ -57,10 +57,10 @@ export default function Hero({ compact = false }) {
               viewport={{ once: true, amount: 0.3 }}
               className="max-w-4xl text-[clamp(2.65rem,7vw,5.85rem)] font-bold leading-tight tracking-tighter min-[1700px]:max-w-[11ch] min-[1700px]:text-[clamp(5rem,5vw,6.6rem)]"
             >
-              Reliable plastering manpower for your commercial project.
+              Reliable plaster subcontractor for your commercial project.
             </MotionH1>
             <p className="max-w-xl text-sm leading-7 text-gray-400 sm:text-base sm:leading-8">
-              Precision plaster manpower for premium commercial interiors.
+              Precision plaster Subcontractor for premium commercial interiors.
             </p>
           </div>
 
@@ -93,7 +93,7 @@ export default function Hero({ compact = false }) {
             </div>
             <div className="space-y-4 text-base leading-7 text-white/80 sm:text-lg sm:leading-8">
               <p>Built for interiors contractors that need labour support, not general retail traffic.</p>
-              <p>Positioned around reliability, manpower flexibility, and commercial site familiarity.</p>
+              <p>Positioned around reliability, subcontractor flexibility, and commercial site familiarity.</p>
               <p>Structured to convert fast: clear offer, strong project references, direct contact path.</p>
             </div>
           </div>

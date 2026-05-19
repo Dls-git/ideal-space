@@ -1,7 +1,7 @@
 export default function WhyUs({ summary = false }) {
   const reasons = [
     "Reliable team with steady site attendance",
-    "Fast turnaround and flexible manpower scaling",
+    "Long-term stable labor support",
     "Commercial-only focus for interior fit-out environments",
     "Quality workmanship with site-ready, safety-aware crews",
     "Weekly company-to-company invoicing",
@@ -18,7 +18,7 @@ export default function WhyUs({ summary = false }) {
           <div className={sectionTitle}>Why Contractors Work With Us</div>
           <h2 className="text-3xl font-semibold leading-tight md:text-5xl">
             {summary
-              ? "Why teams choose us for commercial plaster labour support."
+              ? "Why choose us for commercial plaster labour support."
               : "Labour support that reduces pressure without lowering standards."}
           </h2>
         </div>
